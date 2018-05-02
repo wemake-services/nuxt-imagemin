@@ -1,0 +1,22 @@
+language: node_js
+
+sudo: false
+
+cache:
+  directories:
+    - node_modules
+
+node_js: 8
+
+install:
+  - npm install -g yarn
+  - yarn install
+
+script:
+  - yarn lint
+  - yarn coveralls
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change

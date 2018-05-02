@@ -1,0 +1,47 @@
+{
+  "name": "nuxt-imagemin",
+  "version": "0.1.0",
+  "description": "Nuxt plugin to minify your images",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run compile",
+    "compile": "babel src --out-dir lib",
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wemake-services/nuxt-imagemin.git"
+  },
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "imagemin",
+    "image minification",
+    "image optimization",
+    "images",
+    "vue"
+  ],
+  "author": "Nikita Sobolev <mail@sobolevn.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wemake-services/nuxt-imagemin/issues"
+  },
+  "homepage": "https://github.com/wemake-services/nuxt-imagemin#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "es6-promise": "^4.2.4",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jest": "^21.15.1",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "imagemin-webpack-plugin": "^2.1.1"
+  }
+}
