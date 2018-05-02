@@ -1,6 +1,6 @@
 {
   "name": "nuxt-imagemin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Nuxt plugin to minify your images",
   "main": "lib/index.js",
   "scripts": {
