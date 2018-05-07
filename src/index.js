@@ -11,7 +11,7 @@ const ImageminPlugin = require('imagemin-webpack-plugin').default
 
 function nuxtImageMin (options) {
   this.extendBuild((config) => {
-    if (!process.isDev) {
+    if (!this.options.dev) {
       config.plugins.push(new ImageminPlugin(options))
     }
   })
