@@ -2444,7 +2444,7 @@ imagemin-optipng@^5.1.0:
     is-png "^1.0.0"
     optipng-bin "^3.0.0"
 
-imagemin-pngquant@^5.0.1:
+imagemin-pngquant@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/imagemin-pngquant/-/imagemin-pngquant-5.1.0.tgz#b9eb563d9e6a3876f6248be0061ba1b0ef269c07"
   dependencies:
@@ -2462,8 +2462,8 @@ imagemin-svgo@^6.0.0:
     svgo "^1.0.0"
 
 imagemin-webpack-plugin@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/imagemin-webpack-plugin/-/imagemin-webpack-plugin-2.1.1.tgz#e9ed697fe28e9a1bb74dc5459ba6c1c124009f0a"
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/imagemin-webpack-plugin/-/imagemin-webpack-plugin-2.1.2.tgz#b25f5687d3357d2958cf08d0fc9a6d90cff2f7fe"
   dependencies:
     async-throttle "^1.1.0"
     babel-runtime "^6.18.0"
@@ -2471,7 +2471,7 @@ imagemin-webpack-plugin@^2.1.1:
     imagemin-gifsicle "^5.1.0"
     imagemin-jpegtran "^5.0.2"
     imagemin-optipng "^5.1.0"
-    imagemin-pngquant "^5.0.1"
+    imagemin-pngquant "^5.1.0"
     imagemin-svgo "^6.0.0"
     lodash.map "^4.6.0"
     minimatch "^3.0.4"
