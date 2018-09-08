@@ -1,6 +1,6 @@
 {
   "name": "nuxt-imagemin",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Nuxt plugin to minify your images",
   "main": "lib/index.js",
   "scripts": {
@@ -35,11 +35,14 @@
     "es6-promise": "^4.2.4",
     "eslint": "^5.0.0",
     "eslint-config-standard": "^12.0.0",
+    "eslint-config-wemake": "^0.5.2",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jest": "^21.15.1",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-unicorn": "^6.0.1"
   },
   "dependencies": {
     "imagemin-webpack-plugin": "^2.1.1"
