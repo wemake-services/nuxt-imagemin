@@ -44,7 +44,7 @@ We pass any provided options into the `imagemin` itself:
     ['nuxt-imagemin', {
       optipng: { optimizationLevel: 5 },
       gifsicle: { optimizationLevel: 2 }
-    },
+    }],
   ]
 }
 ```
