@@ -5,23 +5,19 @@
 `Nuxt` module to minify your images.
 Works with: `png`, `jpeg`, `gif`, and `svg`.
 
-
 ## Installation
 
 ```
-npm install --save nuxt-imagemin
+npm install --save-dev nuxt-imagemin
 ```
 
 Add `nuxt-imagemin` to your `nuxt.config.js`:
 
 ```js
 {
-  modules: [
-    'nuxt-imagemin',
-  ]
+  modules: ["nuxt-imagemin"];
 }
 ```
-
 
 ## Usage
 
@@ -30,7 +26,6 @@ Add `nuxt-imagemin` to your `nuxt.config.js`:
 3. When you will bundle your app for production, `nuxt` will minify your image assets
 
 Read more about [how assets work](https://nuxtjs.org/guide/assets/).
-
 
 ## Options
 
@@ -41,14 +36,16 @@ We pass any provided options into the `imagemin` itself:
 ```js
 {
   modules: [
-    ['nuxt-imagemin', {
-      optipng: { optimizationLevel: 5 },
-      gifsicle: { optimizationLevel: 2 }
-    }],
-  ]
+    [
+      "nuxt-imagemin",
+      {
+        optipng: { optimizationLevel: 5 },
+        gifsicle: { optimizationLevel: 2 }
+      }
+    ]
+  ];
 }
 ```
-
 
 ## License
 
