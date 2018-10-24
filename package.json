@@ -45,6 +45,6 @@
     "eslint-plugin-unicorn": "^6.0.1"
   },
   "dependencies": {
-    "imagemin-webpack-plugin": "^2.1.1"
+    "imagemin-webpack-plugin": "^2.1.2"
   }
 }
