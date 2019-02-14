@@ -46,6 +46,21 @@ We pass any provided options into the `imagemin` itself:
   ];
 }
 ```
+### WebP Support
+```js
+import imageminWebp from 'imagemin-webp'
+
+module.exports = {
+  modules: [
+    ['nuxt-imagemin', {
+      plugins: [
+        imageminWebp({quality: 50})
+      ]
+    }]
+  ]
+}
+```
+> credits: [@ricardogobbosouza](https://github.com/wemake-services/nuxt-imagemin/issues/67#issuecomment-463707466)
 
 ## License
 
