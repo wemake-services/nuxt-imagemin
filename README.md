@@ -46,6 +46,23 @@ We pass any provided options into the `imagemin` itself:
   ];
 }
 ```
+### Custom plugins
+
+If you want to add a custom plugin for `imagemin`, you can follow this steps with `imagemin-webp` as example.
+
+```js
+import imageminWebp from 'imagemin-webp'
+
+module.exports = {
+  modules: [
+    ['nuxt-imagemin', {
+      plugins: [
+        imageminWebp({quality: 50})
+      ]
+    }]
+  ]
+}
+```
 
 ## License
 
