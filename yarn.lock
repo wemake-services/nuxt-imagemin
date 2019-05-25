@@ -1859,8 +1859,8 @@ eslint-plugin-import@^2.11.0:
     resolve "^1.10.0"
 
 eslint-plugin-jest@^22.0.0:
-  version "22.5.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.5.1.tgz#a31dfe9f9513c6af7c17ece4c65535a1370f060b"
+  version "22.6.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.6.4.tgz#2895b047dd82f90f43a58a25cf136220a21c9104"
 
 eslint-plugin-node@^9.0.1:
   version "9.0.1"
