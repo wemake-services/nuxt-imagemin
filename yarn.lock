@@ -1888,8 +1888,8 @@ eslint-plugin-standard@^4.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-4.0.0.tgz#f845b45109c99cd90e77796940a344546c8f6b5c"
 
 eslint-plugin-unicorn@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-9.0.0.tgz#53e0a9043ad27f11f10846603915251d03584165"
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-9.1.0.tgz#b5ec3c65ae28d8163f6f6b340b183e11862ec295"
   dependencies:
     clean-regexp "^1.0.0"
     eslint-ast-utils "^1.0.0"
@@ -1900,6 +1900,7 @@ eslint-plugin-unicorn@^9.0.0:
     lodash.snakecase "^4.0.1"
     lodash.topairs "^4.3.0"
     lodash.upperfirst "^4.2.0"
+    regexpp "^2.0.1"
     reserved-words "^0.1.2"
     safe-regex "^2.0.1"
 
