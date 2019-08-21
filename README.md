@@ -8,7 +8,8 @@ Works with: `png`, `jpeg`, `gif`, and `svg`.
 ## Installation
 
 ```
-npm install --save-dev nuxt-imagemin
+npm install --save nuxt-imagemin
+yarn add nuxt-imagemin
 ```
 
 Add `nuxt-imagemin` to your `nuxt.config.js`:
