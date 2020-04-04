@@ -1909,8 +1909,8 @@ eslint-plugin-jest@^23.0.2:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
 eslint-plugin-node@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-11.0.0.tgz#365944bb0804c5d1d501182a9bc41a0ffefed726"
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-11.1.0.tgz#c95544416ee4ada26740a30474eefc5402dc671d"
   dependencies:
     eslint-plugin-es "^3.0.0"
     eslint-utils "^2.0.0"
