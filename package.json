@@ -33,7 +33,7 @@
     "babel-jest": "^23.0.0",
     "babel-preset-env": "^1.6.1",
     "es6-promise": "^4.2.4",
-    "eslint": "^6.0.1",
+    "eslint": "^7.18.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-config-wemake": "^0.6.0",
     "eslint-plugin-import": "^2.11.0",
